@@ -3,7 +3,7 @@ import { CreateUserDto } from "./dto/create-user.dto";
 import { UpdateUserDto } from "./dto/update-user.dto";
 import { UsersService } from "./users.service";
 import { UserDto } from "./dto/user.dto";
-import { Serialize } from "src/intercptors/serialize.interceptor";
+import { Serialize } from "src/interceptors/serialize.interceptor";
 import { JwtAuthGuard } from "src/auth/guards/jwt-auth.guard";
 import { IsAdminAuthGuard } from "src/auth/guards/is-admin-auth.guard";
 
